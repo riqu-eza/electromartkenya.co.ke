@@ -27,23 +27,33 @@ export const metadata = {
     "gaming consoles Kenya",
     "kitchen appliances Nairobi",
     "ElectroMart Kenya",
-    "trusted electronics shop Nairobi"
+    "trusted electronics shop Nairobi",
   ],
   openGraph: {
-    title: "ElectroMart Kenya - Online Electronics Store",
+    type: "website",
+    url: "https://www.electromartkenya.co.ke/",
+
+    title: "website - ElectroMart Kenya - Online Electronics Store",
     description:
       "Explore top electronics including smartphones, laptops, TVs, and appliances at ElectroMart Kenya. Fast delivery across Nairobi and Kenya.",
-    url: "https://www.electromartkenya.co.ke/",
-    siteName: "ElectroMart Kenya",
+    // siteName: "ElectroMart Kenya",
     images: [
       {
-        url: "/og-electronics.png", // ensure this exists in /public folder
-        width: 1200,
-        height: 630,
+        url: "https://www.electromartkenya.co.ke/og-electronics.png", // ensure this exists in /public folder
+        
       },
     ],
-    locale: "en_US",
-    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    url: "https://www.electromartkenya.co.ke",
+    title: "Dancah Technology – Smart Property Solutions",
+    description:
+      "Explore top electronics including smartphones, laptops, TVs, and appliances at ElectroMart Kenya. Fast delivery across Nairobi and Kenya.",
+    images: [
+      "https://www.electromartkenya.co.ke/og-electronics.png",
+    ],
   },
 };
 
