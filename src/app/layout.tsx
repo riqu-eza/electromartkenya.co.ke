@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "ElectroMart Kenya",
     images: [
       {
-        url: "/og-image.png", // ensure this exists in /public folder
+        url: "/og-electronics.png", // ensure this exists in /public folder
         width: 1200,
         height: 630,
       },
